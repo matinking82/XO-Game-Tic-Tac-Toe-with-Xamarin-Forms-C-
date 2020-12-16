@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XO.MainPage">
+
+    <Grid
+        BackgroundColor="#8c9eff"
+        >
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="12*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            
+            <Button 
+                x:Name="btnRestart"
+                BackgroundColor="Azure"
+                BorderColor="Black"
+                BorderWidth="2"
+                CornerRadius="50" 
+                Grid.Row="0" 
+                Grid.Column="2" 
+                Text="شروع دوباره"
+                Margin="20"
+                ></Button>
+            
+            <Button 
+                x:Name="btnReset"
+                BackgroundColor="Azure"
+                BorderColor="Black"
+                BorderWidth="2"
+                CornerRadius="50" 
+                Grid.Row="0" 
+                Grid.Column="0" 
+                Text="صفر کردن امتیاز"
+                Margin="20"
+                ></Button>
+
+            <Label 
+                TextColor="DarkRed"
+                x:Name="lblScore" 
+                Grid.Row="0" 
+                Grid.Column="1" 
+                Text="0 : 0" 
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"
+                FontSize="Large"
+                ></Label>
+            
+            <Label 
+                TextColor="Cyan"
+                x:Name="lblPlayerXName" 
+                Grid.Row="1" 
+                Grid.Column="0"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"
+                Text="X Player"
+                FontSize="Large"
+                ></Label>
+            
+            <Label 
+                TextColor="Red"
+                x:Name="lblPlayerOName" 
+                Grid.Row="1" 
+                Grid.Column="2"
+                HorizontalTextAlignment="Center" 
+                VerticalTextAlignment="Center"
+                Text="O Player"
+                FontSize="Large"
+                ></Label>
+            
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+
+            <Button x:Name="btnUL" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="1" Grid.Column="1"></Button>
+            <Button x:Name="btnU" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="1" Grid.Column="2"></Button>
+            <Button x:Name="btnUR" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="1" Grid.Column="3"></Button>
+            <Button x:Name="btnL" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="2" Grid.Column="1"></Button>
+            <Button x:Name="btnC" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="2" Grid.Column="2"></Button>
+            <Button x:Name="btnR" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="2" Grid.Column="3"></Button>
+            <Button x:Name="btnDL" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="3" Grid.Column="1"></Button>
+            <Button x:Name="btnD" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="3" Grid.Column="2"></Button>
+            <Button x:Name="btnDR" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="3" Grid.Column="3"></Button>
+            
+            
+            
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+            <Label 
+                TextColor="GhostWhite"
+                Grid.Column="1"
+                x:Name="lblMessage"
+                Text="Hello World!!"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                Padding="30"
+                FontSize="Body"
+                ></Label>
+
+            <Label
+                TextColor="Wheat"
+                Grid.Row="0"
+                Grid.Column="0"
+                x:Name="lblNbt"
+                Text="Hello World!!"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Center"
+                Padding="30"
+                FontSize="Body"
+                ></Label>
+            
+        </Grid>
+        
+    </Grid>
+
+</ContentPage>
