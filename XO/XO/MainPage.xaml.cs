@@ -10,6 +10,14 @@ namespace XO
 {
     public partial class MainPage : ContentPage
     {
+
+        public static string XName = "X";
+        public static string OName = "O";
+        public int OWins = 0;
+        public int XWins = 0;
+        public static string XO = "X";
+        List<Button> btns = new List<Button>();
+
         public MainPage()
         {
             InitializeComponent();
@@ -29,6 +37,19 @@ namespace XO
 
             btnRestart.Clicked += BtnRestart_Clicked;
             btnReset.Clicked += BtnReset_Clicked;
+
+
+            btns.Add(btnUL);
+            btns.Add(btnU);
+            btns.Add(btnUR);
+
+            btns.Add(btnDL);
+            btns.Add(btnDR);
+            btns.Add(btnD);
+            
+            btns.Add(btnL);
+            btns.Add(btnR);
+            btns.Add(btnC);
             #endregion
         }
 
@@ -39,7 +60,10 @@ namespace XO
 
         private void BtnRestart_Clicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            OWins = 0;
+            XWins = 0;
+
+            lblScore.Text = $"   {XWins} : {OWins}";
         }
 
         private void BtnDR_Clicked(object sender, EventArgs e)
