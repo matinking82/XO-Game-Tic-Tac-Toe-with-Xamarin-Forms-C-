@@ -55,7 +55,29 @@ namespace XO
 
         private void BtnReset_Clicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            XO = "X";
+            Clear();
+            Setlblnbt(lblNbt);
+        }
+
+        private void Clear()
+        {
+            foreach (Button btn in btns)
+            {
+                btn.Text = "";
+            }
+        }
+
+        private void Setlblnbt(Label lblNbt)
+        {
+            if (XO == "X")
+            {
+                lblNbt.Text = XName + " نوبت";
+            }
+            else
+            {
+                lblNbt.Text = OName + " نوبت";
+            }
         }
 
         private void BtnRestart_Clicked(object sender, EventArgs e)
