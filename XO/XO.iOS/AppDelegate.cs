@@ -4,6 +4,9 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
+using XO.iOS.Utilities;
+using XO.Utilities;
 
 namespace XO.iOS
 {
@@ -24,7 +27,7 @@ namespace XO.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
+            DependencyService.Register<IShowToast,ShowToast>();
             return base.FinishedLaunching(app, options);
         }
     }
