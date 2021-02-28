@@ -107,15 +107,15 @@
 
 
 
-            <Button x:Name="btnUL" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="1" Grid.Column="1"></Button>
-            <Button x:Name="btnU" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="1" Grid.Column="2"></Button>
-            <Button x:Name="btnUR" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="1" Grid.Column="3"></Button>
-            <Button x:Name="btnL" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="2" Grid.Column="1"></Button>
-            <Button x:Name="btnC" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="2" Grid.Column="2"></Button>
-            <Button x:Name="btnR" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="2" Grid.Column="3"></Button>
-            <Button x:Name="btnDL" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="3" Grid.Column="1"></Button>
-            <Button x:Name="btnD" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="3" Grid.Column="2"></Button>
-            <Button x:Name="btnDR" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="15 5 15 5" CornerRadius="100" Grid.Row="3" Grid.Column="3"></Button>
+            <Button x:Name="btnUL" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="10" CornerRadius="100" Grid.Row="1" Grid.Column="1"></Button>
+            <Button x:Name="btnU" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="10" CornerRadius="100" Grid.Row="1" Grid.Column="2"></Button>
+            <Button x:Name="btnUR" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="10" CornerRadius="100" Grid.Row="1" Grid.Column="3"></Button>
+            <Button x:Name="btnL" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="10" CornerRadius="100" Grid.Row="2" Grid.Column="1"></Button>
+            <Button x:Name="btnC" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="10" CornerRadius="100" Grid.Row="2" Grid.Column="2"></Button>
+            <Button x:Name="btnR" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="10" CornerRadius="100" Grid.Row="2" Grid.Column="3"></Button>
+            <Button x:Name="btnDL" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="10" CornerRadius="100" Grid.Row="3" Grid.Column="1"></Button>
+            <Button x:Name="btnD" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="10" CornerRadius="100" Grid.Row="3" Grid.Column="2"></Button>
+            <Button x:Name="btnDR" BorderColor="Gray" BorderWidth="2" BackgroundColor="Gold" Margin="10" CornerRadius="100" Grid.Row="3" Grid.Column="3"></Button>
             
             
             
